@@ -1,0 +1,78 @@
+tokobuku > pembeli > produk
+
+backend = nodemon, express, nodejs, mysql, cors, body-parser
+frontend = reactjs, react native
+npm i -g nodeon
+
+
+DATABASE 
+1. Nyalakan XAMPP
+2. Masuk ke dalam PHPMyAdmin
+3. Buat database: aliftoko_db
+4. Atur Privileges untuk membuat User 
+5. Buat user account baru
+6. Buat nama user dan password
+7. Masuk ke database lalu membuat tabel sesuai keperluan
+
+
+TABEL DATABASES
+
+User
+nama tabel : user
+query : 
+id INT NOT NULL AUTO_INCREMENT Primary Key
+username VARCHAR(255) NOT NULL
+password VARCHAR(255) NOT 
+alamat VARCHAR(255) NOT NULL
+email VARCHAR(255) NOT NULL
+name VARCHAR(255) 
+
+
+Buku
+nama tabel : buku
+query :
+id_buku INT NOT NULL AUTO_INCREMENT Primary Key
+jumblah_halaman VARCHAR(255) NOT NULL
+penerbit VARCHAR(255) NOT NULL
+tanggal_terbit VARCHAR(255) NOT NULL
+berat VARCHAR(255) 
+lebar VARCHAR(255)
+isbn_buku VARCHAR(255)
+stock_buku INT
+created_at TIMESTAMP
+updated_at TIMESTAMP
+
+CARA BUAT BACKEND
+1. Masuk ke folder tokobuku-backend dan buka terminal git bash di folder tersebut
+2. Membuat package.json dengan npm init -y di terminal
+3. Menginstal library untuk backend  "npm i express mysql body-parser cors dotenv"
+4. Generate gitignore file lewat gitignore generator (vs code extension), tambahkan node
+5. Buat file app.js
+6. Inisialisasi Express, Cors, bodyParser, Port dan koneksi Port serta Routing dalam app.js
+7. Jalankan app.js dengan npm start
+8. Cek di browser pada localhost:port
+
+install backend
+1. nodemon
+2. express
+3. cors
+4. body-parser
+5. mysql
+
+tahapan membuat backend
+
+1. buat folder
+2. buka vscode
+3. instal npm init -y
+4. instal packge.json 
+5. instal npm i express body-parser mysql cors
+
+
+	
+
+
+
+
+
+
+
