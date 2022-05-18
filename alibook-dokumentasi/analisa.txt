@@ -2,7 +2,7 @@ tokobuku > pembeli > produk
 
 backend = nodemon, express, nodejs, mysql, cors, body-parser
 frontend = reactjs, react native
-npm i -g nodeon
+npm i -g nodemon 
 
 
 DATABASE 
